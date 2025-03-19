@@ -1,0 +1,92 @@
+*INFO       2020-03-02 18:28:25,135        Start Services... 
+*INFO       2020-03-02 18:42:44,371        Start Services... 
+*INFO       2020-03-02 22:27:32,078        Start Services... 
+*INFO       2020-03-02 22:28:29,752        Start Services... 
+*INFO       2020-03-02 22:28:35,336        *************************************************************** 
+*INFO       2020-03-02 22:28:35,337        Terminal           : OCBC 
+*INFO       2020-03-02 22:28:35,338        ECR Type           : 1 
+*INFO       2020-03-02 22:28:35,339        IP Address         : 192.168.43.237:80 
+*INFO       2020-03-02 22:28:35,339        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-03-02 22:28:35,339        *************************************************************** 
+*INFO       2020-03-02 22:28:35,354        Terminal Connected. 
+*INFO       2020-03-02 22:29:23,786        Start Services... 
+*INFO       2020-03-02 22:30:03,063        Start Services... 
+*INFO       2020-03-02 22:30:08,231        *************************************************************** 
+*INFO       2020-03-02 22:30:08,231        Terminal           : OCBC 
+*INFO       2020-03-02 22:30:08,231        ECR Type           : 1 
+*INFO       2020-03-02 22:30:08,231        IP Address         : 192.168.43.237:3000 
+*INFO       2020-03-02 22:30:08,231        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-03-02 22:30:08,231        *************************************************************** 
+*INFO       2020-03-02 22:30:08,231        Terminal Connected. 
+*INFO       2020-03-02 22:30:14,915        Command       : transaction 
+*INFO       2020-03-02 22:30:14,915        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-03-02 22:30:14,915        Terminal      : K1 
+*INFO       2020-03-02 22:30:14,915        Session       : ECJJJV2DFffu4ui28lj 
+*INFO       2020-03-02 22:30:14,915        OrderNo       : 181205082219K15b 
+*INFO       2020-03-02 22:30:14,915        Amount        : 0.10 
+*INFO       2020-03-02 22:30:14,915        Payment Type  : NETSQR 
+*INFO       2020-03-02 22:30:14,915        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-03-02 22:30:14,915        Request       :{"merchant":"5b4c3873355d2","session":"ECJJJV2DFffu4ui28lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","acquirer_bank":"OCBC","amount":"0.10","payment_type":"NETSQR","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-03-02 22:30:14,915         
+*INFO       2020-03-02 22:30:14,915        *************************************************************** 
+*INFO       2020-03-02 22:30:16,219        Request Number of bytes :68 
+*INFO       2020-03-02 22:30:16,219        Requested : >>>>> :
+00 66 30 30 30 30 30 30 30 30 30 30 30 30 33 30 30 30 30 1c 54 32 00 02 30 34 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 1c  
+*INFO       2020-03-02 22:30:17,277         
+*INFO       2020-03-02 22:30:17,308        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.43.237:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.OCBCImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\OCBCImplementation.cs:line 954 
+*INFO       2020-03-02 22:30:17,308        *************************************************************** 
+*INFO       2020-03-02 22:30:17,662        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.43.237:80]","nextCommand":"","result":false} 
+*INFO       2020-03-02 22:30:17,662         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-03-02 22:30:45,156        Command       : settlement 
+*INFO       2020-03-02 22:30:45,156        Merchant Key  : OCBC 
+*INFO       2020-03-02 22:30:45,156        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-03-02 22:30:45,187        Terminal      : K1 
+*INFO       2020-03-02 22:30:45,187        OrderNo       : 181205082219K15b 
+*INFO       2020-03-02 22:30:45,209        Amount        : 0.10 
+*INFO       2020-03-02 22:30:45,209        Payment Type  : NETSQR 
+*INFO       2020-03-02 22:30:45,225        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-03-02 22:30:45,225        Request       : {"merchant":"5b4c3873355d2","session":"ECJJJV2DFffu4ui28lj","function":"settlement","terminal":"K1","orderNo":"181205082219K15b","acquirer_bank":"OCBC","amount":"0.10","payment_type":"NETSQR","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-03-02 22:30:45,256         
+*INFO       2020-03-02 22:30:45,256        *************************************************************** 
+*INFO       2020-03-02 22:30:45,287        Request Number of bytes :48 
+*INFO       2020-03-02 22:30:45,303        Requested : >>>>> :
+02 00 43 50 53 56 31 38 32 30 31 35 30 35 32 36 31 34 30 31 30 30 20 20 20 20 20 20 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 0f  
+*INFO       2020-03-02 22:30:46,348         
+*INFO       2020-03-02 22:30:46,348        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.43.237:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.OCBCImplementation.DoSettlement(String merchant, String terminal, String orderNo, Decimal amount, String commandType, String acquirer_bank) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\OCBCImplementation.cs:line 1334 
+*INFO       2020-03-02 22:30:46,364        *************************************************************** 
+*INFO       2020-03-02 22:30:46,379        Response      : 
+{"data":null,"message":"Logon Failed! [No connection could be made because the target machine actively refused it 192.168.43.237:80]","nextCommand":"","result":false} 
+*INFO       2020-03-02 22:30:46,379         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-03-02 22:31:13,138        Command       : settlement 
+*INFO       2020-03-02 22:31:13,138        Merchant Key  : NETS 
+*INFO       2020-03-02 22:31:13,138        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-03-02 22:31:13,169        Terminal      : K1 
+*INFO       2020-03-02 22:31:13,169        OrderNo       : 181205082219K15b 
+*INFO       2020-03-02 22:31:13,201        Amount        : 0.10 
+*INFO       2020-03-02 22:31:13,208        Payment Type  : NETSQR 
+*INFO       2020-03-02 22:31:13,208        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-03-02 22:31:13,223        Request       : {"merchant":"5b4c3873355d2","session":"ECJJJV2DFffu4ui28lj","function":"settlement","terminal":"K1","orderNo":"181205082219K15b","acquirer_bank":"NETS","amount":"0.10","payment_type":"NETSQR","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-03-02 22:31:13,223         
+*INFO       2020-03-02 22:31:13,255        *************************************************************** 
+*INFO       2020-03-02 22:31:13,270        Request Number of bytes :21 
+*INFO       2020-03-02 22:31:13,270        Requested : >>>>> :
+00 19 30 30 30 30 30 30 30 30 30 30 30 30 38 31 30 30 30 1c 25  
+*INFO       2020-03-02 22:31:14,328         
+*INFO       2020-03-02 22:31:14,328        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.43.237:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.OCBCImplementation.DoSettlement(String merchant, String terminal, String orderNo, Decimal amount, String commandType, String acquirer_bank) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\OCBCImplementation.cs:line 1334 
+*INFO       2020-03-02 22:31:14,343        *************************************************************** 
+*INFO       2020-03-02 22:31:14,359        Response      : 
+{"data":null,"message":"Logon Failed! [No connection could be made because the target machine actively refused it 192.168.43.237:80]","nextCommand":"","result":false} 
+*INFO       2020-03-02 22:31:14,359         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-03-02 22:32:07,554        Start Services... 
+*INFO       2020-03-02 22:32:12,756        *************************************************************** 
+*INFO       2020-03-02 22:32:12,757        Terminal           : OCBC 
+*INFO       2020-03-02 22:32:12,757        ECR Type           : 1 
+*INFO       2020-03-02 22:32:12,757        IP Address         : 192.168.43.237:3000 
+*INFO       2020-03-02 22:32:12,757        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-03-02 22:32:12,757        *************************************************************** 
+*INFO       2020-03-02 22:32:12,762        Terminal Connected. 
+*INFO       2020-03-02 22:42:14,179        Start Services... 

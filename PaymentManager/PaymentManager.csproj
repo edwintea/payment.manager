@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DF46CE6-EE79-46EA-9909-050AEB37D8CF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PaymentManager</RootNamespace>
+    <AssemblyName>PaymentManager</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tyro.Integ, Version=1.1.1.0, Culture=neutral, PublicKeyToken=20bcf5a82bebf581, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\Tyro.Integ.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataContracts\Item.cs" />
+    <Compile Include="DataContracts\Modifier.cs" />
+    <Compile Include="DataContracts\OrderItem.cs" />
+    <Compile Include="DataContracts\Result.cs" />
+    <Compile Include="DataContracts\TransactionResponse.cs" />
+    <Compile Include="DBConnect.cs" />
+    <Compile Include="Errors\ErrorEnum.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="JsonHelper.cs" />
+    <Compile Include="MainFlow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyServiceInstaller.cs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POSManager.cs" />
+    <Compile Include="POSPlugins\MAYBANKImplementation.cs" />
+    <Compile Include="POSPlugins\UOBImplementation.cs" />
+    <Compile Include="POSPlugins\OCBCImplementation.cs" />
+    <Compile Include="POSPlugins\NETTSImplementation.cs" />
+    <Compile Include="POSPlugins\BCAImplementation.cs" />
+    <Compile Include="POSPlugins\PaymentInterface.cs" />
+    <Compile Include="POSPlugins\TyroImplementation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicConstant.cs" />
+    <Compile Include="SocketManager.cs" />
+    <Compile Include="template.cs" />
+    <Compile Include="UtilsForSocket.cs" />
+    <Compile Include="Utils\ConsoleSpinner.cs" />
+    <Compile Include="Utils\DynamicJsonConverter.cs" />
+    <Compile Include="Utils\Logger.cs" />
+    <Compile Include="Utils\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tabsquare\Payment\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

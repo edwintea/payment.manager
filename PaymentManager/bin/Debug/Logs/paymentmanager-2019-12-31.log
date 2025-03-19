@@ -1,0 +1,115 @@
+*INFO       2019-12-31 09:42:30,689        Start Services... 
+*INFO       2019-12-31 09:42:35,998        *************************************************************** 
+*INFO       2019-12-31 09:42:35,998        Terminal           : BCA 
+*INFO       2019-12-31 09:42:35,998        ECR Type           : 1 
+*INFO       2019-12-31 09:42:35,998        IP Address         : 192.168.0.112:3000 
+*INFO       2019-12-31 09:42:35,998        Merchant           : TERMINAL INTEGRATION 
+*INFO       2019-12-31 09:42:35,998        *************************************************************** 
+*INFO       2019-12-31 09:42:36,003        Terminal Connected. 
+*INFO       2019-12-31 09:42:47,415        Command       : transaction 
+*INFO       2019-12-31 09:42:47,415        Merchant Key  : 5b4c3873355d2 
+*INFO       2019-12-31 09:42:47,415        Terminal      : K1 
+*INFO       2019-12-31 09:42:47,415        Session       : Euui2lj 
+*INFO       2019-12-31 09:42:47,415        OrderNo       : 181205082219K15b 
+*INFO       2019-12-31 09:42:47,415        Amount        : 0.10 
+*INFO       2019-12-31 09:42:47,416        Payment Type  : MAYBANKDB 
+*INFO       2019-12-31 09:42:47,416        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2019-12-31 09:42:47,416        Request       :{"merchant":"5b4c3873355d2","session":"Euui2lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"MAYBANKDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2019-12-31 09:42:47,416         
+*INFO       2019-12-31 09:42:47,416        *************************************************************** 
+*INFO       2019-12-31 09:42:47,686        Request Number of bytes :155 
+*INFO       2019-12-31 09:42:47,687        Requested : >>>>> :02 01 50 01 30 31 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 1d  
+*INFO       2019-12-31 09:42:48,700         
+*INFO       2019-12-31 09:42:48,715        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.0.126:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.BCAImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String paymentType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\BCAImplementation.cs:line 639 
+*INFO       2019-12-31 09:42:48,716        *************************************************************** 
+*INFO       2019-12-31 09:42:48,976        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.0.126:80]","nextCommand":"","result":false} 
+*INFO       2019-12-31 09:42:48,979         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2019-12-31 09:44:06,205        Start Services... 
+*INFO       2019-12-31 09:44:11,374        *************************************************************** 
+*INFO       2019-12-31 09:44:11,374        Terminal           : BCA 
+*INFO       2019-12-31 09:44:11,374        ECR Type           : 1 
+*INFO       2019-12-31 09:44:11,374        IP Address         : 192.168.0.112:3000 
+*INFO       2019-12-31 09:44:11,374        Merchant           : TERMINAL INTEGRATION 
+*INFO       2019-12-31 09:44:11,374        *************************************************************** 
+*INFO       2019-12-31 09:44:11,377        Terminal Connected. 
+*INFO       2019-12-31 09:44:17,139        Command       : transaction 
+*INFO       2019-12-31 09:44:17,139        Merchant Key  : 5b4c3873355d2 
+*INFO       2019-12-31 09:44:17,139        Terminal      : K1 
+*INFO       2019-12-31 09:44:17,139        Session       : Euui2lj 
+*INFO       2019-12-31 09:44:17,139        OrderNo       : 181205082219K15b 
+*INFO       2019-12-31 09:44:17,140        Amount        : 0.10 
+*INFO       2019-12-31 09:44:17,140        Payment Type  : MAYBANKDB 
+*INFO       2019-12-31 09:44:17,140        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2019-12-31 09:44:17,140        Request       :{"merchant":"5b4c3873355d2","session":"Euui2lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"MAYBANKDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2019-12-31 09:44:17,140         
+*INFO       2019-12-31 09:44:17,140        *************************************************************** 
+*INFO       2019-12-31 09:44:17,304        Request Number of bytes :155 
+*INFO       2019-12-31 09:44:17,305        Requested : >>>>> :02 01 50 01 30 31 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 1d  
+*INFO       2019-12-31 09:44:18,969         
+*INFO       2019-12-31 09:44:18,971        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.0.114:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.BCAImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String paymentType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\BCAImplementation.cs:line 639 
+*INFO       2019-12-31 09:44:18,972        *************************************************************** 
+*INFO       2019-12-31 09:44:19,135        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.0.114:80]","nextCommand":"","result":false} 
+*INFO       2019-12-31 09:44:19,137         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2019-12-31 09:56:31,265        Start Services... 
+*INFO       2019-12-31 09:56:52,185        Start Services... 
+*INFO       2019-12-31 09:57:17,676        Start Services... 
+*INFO       2019-12-31 09:57:47,774        Start Services... 
+*INFO       2019-12-31 09:57:52,968        *************************************************************** 
+*INFO       2019-12-31 09:57:52,968        Terminal           : BCA 
+*INFO       2019-12-31 09:57:52,968        ECR Type           : 1 
+*INFO       2019-12-31 09:57:52,969        IP Address         : 192.168.0.112:3000 
+*INFO       2019-12-31 09:57:52,969        Merchant           : TERMINAL INTEGRATION 
+*INFO       2019-12-31 09:57:52,969        *************************************************************** 
+*INFO       2019-12-31 09:57:52,971        Terminal Connected. 
+*INFO       2019-12-31 09:58:00,493        Command       : transaction 
+*INFO       2019-12-31 09:58:00,494        Merchant Key  : 5b4c3873355d2 
+*INFO       2019-12-31 09:58:00,494        Terminal      : K1 
+*INFO       2019-12-31 09:58:00,494        Session       : Euui2lj 
+*INFO       2019-12-31 09:58:00,494        OrderNo       : 181205082219K15b 
+*INFO       2019-12-31 09:58:00,494        Amount        : 0.10 
+*INFO       2019-12-31 09:58:00,494        Payment Type  : MAYBANKDB 
+*INFO       2019-12-31 09:58:00,494        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2019-12-31 09:58:00,494        Request       :{"merchant":"5b4c3873355d2","session":"Euui2lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"MAYBANKDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2019-12-31 09:58:00,495         
+*INFO       2019-12-31 09:58:00,495        *************************************************************** 
+*INFO       2019-12-31 09:58:00,648        Request Number of bytes :155 
+*INFO       2019-12-31 09:58:00,648        Requested : >>>>> :02 01 50 01 30 31 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 1d  
+*INFO       2019-12-31 09:58:01,657         
+*INFO       2019-12-31 09:58:01,665        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.0.126:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.BCAImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String paymentType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\BCAImplementation.cs:line 639 
+*INFO       2019-12-31 09:58:01,666        *************************************************************** 
+*INFO       2019-12-31 09:58:01,814        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.0.126:80]","nextCommand":"","result":false} 
+*INFO       2019-12-31 09:58:01,815         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2019-12-31 09:58:23,986        Start Services... 
+*INFO       2019-12-31 09:58:34,487        *************************************************************** 
+*INFO       2019-12-31 09:58:34,487        Terminal           : BCA 
+*INFO       2019-12-31 09:58:34,487        ECR Type           : 1 
+*INFO       2019-12-31 09:58:34,487        IP Address         : 192.168.0.112:3000 
+*INFO       2019-12-31 09:58:34,487        Merchant           : TERMINAL INTEGRATION 
+*INFO       2019-12-31 09:58:34,488        *************************************************************** 
+*INFO       2019-12-31 09:58:34,490        Terminal Connected. 
+*INFO       2019-12-31 09:58:41,848        Command       : transaction 
+*INFO       2019-12-31 09:58:41,848        Merchant Key  : 5b4c3873355d2 
+*INFO       2019-12-31 09:58:41,848        Terminal      : K1 
+*INFO       2019-12-31 09:58:41,848        Session       : Euui2lj 
+*INFO       2019-12-31 09:58:41,848        OrderNo       : 181205082219K15b 
+*INFO       2019-12-31 09:58:41,849        Amount        : 0.10 
+*INFO       2019-12-31 09:58:41,849        Payment Type  : MAYBANKDB 
+*INFO       2019-12-31 09:58:41,849        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2019-12-31 09:58:41,849        Request       :{"merchant":"5b4c3873355d2","session":"Euui2lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"MAYBANKDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2019-12-31 09:58:41,849         
+*INFO       2019-12-31 09:58:41,849        *************************************************************** 
+*INFO       2019-12-31 09:58:41,995        Request Number of bytes :155 
+*INFO       2019-12-31 09:58:41,995        Requested : >>>>> :02 01 50 01 30 31 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 1d  
+*INFO       2019-12-31 09:58:43,379         
+*INFO       2019-12-31 09:58:43,383        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.0.114:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.BCAImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String paymentType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\BCAImplementation.cs:line 639 
+*INFO       2019-12-31 09:58:43,384        *************************************************************** 
+*INFO       2019-12-31 09:58:43,556        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.0.114:80]","nextCommand":"","result":false} 
+*INFO       2019-12-31 09:58:43,557         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 

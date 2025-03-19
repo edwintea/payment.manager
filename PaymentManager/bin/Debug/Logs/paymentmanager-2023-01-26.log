@@ -1,0 +1,142 @@
+*INFO       2023-01-27 07:48:24,805        Start Services... 
+*INFO       2023-01-27 07:48:31,826        *************************************************************** 
+*INFO       2023-01-27 07:48:31,833        Terminal           : UOB 
+*INFO       2023-01-27 07:48:31,833        ECR Type           : 2 
+*INFO       2023-01-27 07:48:31,833        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 07:48:31,833        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 07:48:31,834        *************************************************************** 
+*INFO       2023-01-27 07:48:31,854        Terminal Connected. 
+*INFO       2023-01-27 07:48:51,972        Command       : transaction 
+*INFO       2023-01-27 07:48:51,972        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 07:48:51,972        Terminal      : K1 
+*INFO       2023-01-27 07:48:51,972        Session       : 123dfff 
+*INFO       2023-01-27 07:48:51,972        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 07:48:51,972        Amount        : 0.10 
+*INFO       2023-01-27 07:48:51,972        Payment Type  : NETSDB 
+*INFO       2023-01-27 07:48:51,972        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 07:48:51,972        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 07:48:51,972         
+*INFO       2023-01-27 07:48:51,972        *************************************************************** 
+*INFO       2023-01-27 07:48:52,294        Session on DB       :-1 
+*INFO       2023-01-27 07:48:52,294        Here 2 
+*INFO       2023-01-27 07:48:52,294        Payment Type :netsdb 
+*INFO       2023-01-27 07:48:52,294        Response was from terminal 
+*INFO       2023-01-27 07:48:52,294        Request Number of bytes :86 
+*INFO       2023-01-27 07:48:52,294        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 07:48:52,309        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 07:48:52,309        Sent. Waiting for the response ... 
+*INFO       2023-01-27 07:50:09,688        Start Services... 
+*INFO       2023-01-27 07:50:15,007        *************************************************************** 
+*INFO       2023-01-27 07:50:15,007        Terminal           : UOB 
+*INFO       2023-01-27 07:50:15,007        ECR Type           : 2 
+*INFO       2023-01-27 07:50:15,007        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 07:50:15,008        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 07:50:15,008        *************************************************************** 
+*INFO       2023-01-27 07:50:15,018        Terminal Connected. 
+*INFO       2023-01-27 07:50:24,745        Command       : transaction 
+*INFO       2023-01-27 07:50:24,745        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 07:50:24,745        Terminal      : K1 
+*INFO       2023-01-27 07:50:24,745        Session       : 123dfff 
+*INFO       2023-01-27 07:50:24,745        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 07:50:24,745        Amount        : 0.10 
+*INFO       2023-01-27 07:50:24,745        Payment Type  : NETSDB 
+*INFO       2023-01-27 07:50:24,745        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 07:50:24,745        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 07:50:24,745         
+*INFO       2023-01-27 07:50:24,745        *************************************************************** 
+*INFO       2023-01-27 07:50:24,944        Session on DB       :-1 
+*INFO       2023-01-27 07:50:24,944        Here 2 
+*INFO       2023-01-27 07:50:24,944        Payment Type :netsdb 
+*INFO       2023-01-27 07:50:24,944        Response was from terminal 
+*INFO       2023-01-27 07:50:24,944        Request Number of bytes :86 
+*INFO       2023-01-27 07:50:24,944        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 07:50:24,944        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 07:50:24,944        Sent. Waiting for the response ... 
+*INFO       2023-01-27 07:50:48,008        Start Services... 
+*INFO       2023-01-27 07:50:53,300        *************************************************************** 
+*INFO       2023-01-27 07:50:53,300        Terminal           : UOB 
+*INFO       2023-01-27 07:50:53,300        ECR Type           : 2 
+*INFO       2023-01-27 07:50:53,300        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 07:50:53,300        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 07:50:53,300        *************************************************************** 
+*INFO       2023-01-27 07:50:53,312        Terminal Connected. 
+*INFO       2023-01-27 07:51:05,185        Command       : transaction 
+*INFO       2023-01-27 07:51:05,185        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 07:51:05,185        Terminal      : K1 
+*INFO       2023-01-27 07:51:05,185        Session       : 123dfff 
+*INFO       2023-01-27 07:51:05,186        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 07:51:05,186        Amount        : 0.10 
+*INFO       2023-01-27 07:51:05,186        Payment Type  : NETSDB 
+*INFO       2023-01-27 07:51:05,186        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 07:51:05,186        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 07:51:05,186         
+*INFO       2023-01-27 07:51:05,186        *************************************************************** 
+*INFO       2023-01-27 07:51:05,390        Session on DB       :-1 
+*INFO       2023-01-27 07:51:05,391        Here 2 
+*INFO       2023-01-27 07:51:05,391        Payment Type :netsdb 
+*INFO       2023-01-27 07:51:05,391        Response was from terminal 
+*INFO       2023-01-27 07:51:05,407        Request Number of bytes :86 
+*INFO       2023-01-27 07:51:05,407        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 07:51:05,407        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 07:51:05,410        Sent. Waiting for the response ... 
+*INFO       2023-01-27 07:51:58,869        Start Services... 
+*INFO       2023-01-27 07:52:04,177        *************************************************************** 
+*INFO       2023-01-27 07:52:04,177        Terminal           : UOB 
+*INFO       2023-01-27 07:52:04,177        ECR Type           : 2 
+*INFO       2023-01-27 07:52:04,177        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 07:52:04,177        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 07:52:04,177        *************************************************************** 
+*INFO       2023-01-27 07:52:04,177        Terminal Connected. 
+*INFO       2023-01-27 07:52:14,565        Command       : transaction 
+*INFO       2023-01-27 07:52:14,566        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 07:52:14,567        Terminal      : K1 
+*INFO       2023-01-27 07:52:14,567        Session       : 123dfff 
+*INFO       2023-01-27 07:52:14,567        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 07:52:14,567        Amount        : 0.10 
+*INFO       2023-01-27 07:52:14,567        Payment Type  : NETSDB 
+*INFO       2023-01-27 07:52:14,568        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 07:52:14,568        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 07:52:14,568         
+*INFO       2023-01-27 07:52:14,568        *************************************************************** 
+*INFO       2023-01-27 07:52:14,742        Session on DB       :-1 
+*INFO       2023-01-27 07:52:14,742        Here 2 
+*INFO       2023-01-27 07:52:14,742        Payment Type :netsdb 
+*INFO       2023-01-27 07:52:14,742        Response was from terminal 
+*INFO       2023-01-27 07:52:14,771        Request Number of bytes :86 
+*INFO       2023-01-27 07:52:14,771        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 07:52:14,771        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 07:52:14,784        Sent. Waiting for the response ... 
+*INFO       2023-01-27 07:56:01,526        Start Services... 
+*INFO       2023-01-27 07:56:06,827        *************************************************************** 
+*INFO       2023-01-27 07:56:06,828        Terminal           : UOB 
+*INFO       2023-01-27 07:56:06,828        ECR Type           : 2 
+*INFO       2023-01-27 07:56:06,828        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 07:56:06,828        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 07:56:06,828        *************************************************************** 
+*INFO       2023-01-27 07:56:06,837        Terminal Connected. 
+*INFO       2023-01-27 07:56:22,056        ERROR Message {0}Unexpected end of content while loading JObject. Path 'result.paymentList[1].paymentListByType', line 35, position 2. 
+*INFO       2023-01-27 07:56:22,079        ERROR StackTrace {0}   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader, JsonLoadSettings options) in /_/Src/Newtonsoft.Json/Linq/JContainer.cs:line 742
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 424
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at PaymentManager.SocketManager.FuncNavigator(String parsedData) in D:\me\PaymentManager\PaymentManager\SocketManager.cs:line 319 
+*INFO       2023-01-27 07:56:34,395        ERROR Message {0}Unexpected end of content while loading JObject. Path 'result.paymentList[1].paymentListByType', line 35, position 2. 
+*INFO       2023-01-27 07:56:34,395        ERROR StackTrace {0}   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader, JsonLoadSettings options) in /_/Src/Newtonsoft.Json/Linq/JContainer.cs:line 742
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 424
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at PaymentManager.SocketManager.FuncNavigator(String parsedData) in D:\me\PaymentManager\PaymentManager\SocketManager.cs:line 319 
+*INFO       2023-01-27 07:58:32,190        Start Services... 
+*INFO       2023-01-27 07:58:37,481        *************************************************************** 
+*INFO       2023-01-27 07:58:37,481        Terminal           : UOB 
+*INFO       2023-01-27 07:58:37,481        ECR Type           : 2 
+*INFO       2023-01-27 07:58:37,481        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 07:58:37,481        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 07:58:37,481        *************************************************************** 
+*INFO       2023-01-27 07:58:37,481        Terminal Connected. 

@@ -1,0 +1,17 @@
+System.Net Error: 0 : [1344] Exception in AppDomain#13869071::UnhandledExceptionHandler - Could not find a part of the path 'E:\me\source\net\payment\PaymentManager\PaymentManager\bin\Release\icon\logo.ico'..
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Drawing.Icon..ctor(String fileName, Int32 width, Int32 height)
+   at PaymentManager.Program.setToTray() in E:\me\source\net\payment\PaymentManager\PaymentManager\Program.cs:line 257
+   at PaymentManager.Program.Main(String[] args) in E:\me\source\net\payment\PaymentManager\PaymentManager\Program.cs:line 115
+System.Net Error: 0 : [6436] Exception in AppDomain#49652976::UnhandledExceptionHandler - An exception occurred during a Ping request..
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at PaymentManager.Program.checkConnection(String IP) in E:\me\source\net\payment\PaymentManager\PaymentManager\Program.cs:line 161
+   at PaymentManager.Program.Main(String[] args) in E:\me\source\net\payment\PaymentManager\PaymentManager\Program.cs:line 91
+System.Net Error: 0 : [10828] Exception in AppDomain#49652976::UnhandledExceptionHandler - An exception occurred during a Ping request..
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at PaymentManager.Program.checkConnection(String IP) in E:\me\source\net\payment\PaymentManager\PaymentManager\Program.cs:line 161
+   at PaymentManager.Program.Main(String[] args) in E:\me\source\net\payment\PaymentManager\PaymentManager\Program.cs:line 91

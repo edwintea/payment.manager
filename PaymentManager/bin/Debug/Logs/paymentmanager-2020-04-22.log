@@ -1,0 +1,438 @@
+*INFO       2020-04-22 08:16:41,611        Start Services... 
+*INFO       2020-04-22 08:17:23,973        Start Services... 
+*INFO       2020-04-22 08:17:29,400        *************************************************************** 
+*INFO       2020-04-22 08:17:29,400        Terminal           : UOB 
+*INFO       2020-04-22 08:17:29,400        ECR Type           : 2 
+*INFO       2020-04-22 08:17:29,400        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:17:29,400        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:17:29,400        *************************************************************** 
+*INFO       2020-04-22 08:17:29,431        Terminal Connected. 
+*INFO       2020-04-22 08:18:02,453        Command       : transaction 
+*INFO       2020-04-22 08:18:02,453        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:18:02,453        Terminal      : K1 
+*INFO       2020-04-22 08:18:02,453        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:18:02,453        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:18:02,453        Amount        : 0.10 
+*INFO       2020-04-22 08:18:02,453        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:18:02,453        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:18:02,453        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:18:02,453         
+*INFO       2020-04-22 08:18:02,453        *************************************************************** 
+*INFO       2020-04-22 08:18:02,673        Request Number of bytes :62 
+*INFO       2020-04-22 08:18:02,673        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 31 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 31 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 32 30 30 31 31 58 31 00 02 30 31 1c 31  
+*INFO       2020-04-22 08:18:03,740         
+*INFO       2020-04-22 08:18:03,793        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 887 
+*INFO       2020-04-22 08:18:03,793        *************************************************************** 
+*INFO       2020-04-22 08:18:04,056        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:18:04,056         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:19:36,406        Start Services... 
+*INFO       2020-04-22 08:19:41,580        *************************************************************** 
+*INFO       2020-04-22 08:19:41,581        Terminal           : UOB 
+*INFO       2020-04-22 08:19:41,581        ECR Type           : 2 
+*INFO       2020-04-22 08:19:41,582        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:19:41,582        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:19:41,582        *************************************************************** 
+*INFO       2020-04-22 08:19:41,587        Terminal Connected. 
+*INFO       2020-04-22 08:21:59,017        Start Services... 
+*INFO       2020-04-22 08:22:04,223        *************************************************************** 
+*INFO       2020-04-22 08:22:04,223        Terminal           : UOB 
+*INFO       2020-04-22 08:22:04,223        ECR Type           : 2 
+*INFO       2020-04-22 08:22:04,223        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:22:04,223        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:22:04,223        *************************************************************** 
+*INFO       2020-04-22 08:22:04,223        Terminal Connected. 
+*INFO       2020-04-22 08:22:10,909        Command       : transaction 
+*INFO       2020-04-22 08:22:10,909        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:22:10,909        Terminal      : K1 
+*INFO       2020-04-22 08:22:10,909        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:22:10,925        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:22:10,925        Amount        : 0.10 
+*INFO       2020-04-22 08:22:10,925        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:22:10,925        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:22:10,925        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:22:10,925         
+*INFO       2020-04-22 08:22:10,925        *************************************************************** 
+*INFO       2020-04-22 08:22:11,056        Request Number of bytes :62 
+*INFO       2020-04-22 08:22:11,056        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 31 30 32 30 30 31 31 58 31 00 02 30 31 1c 31  
+*INFO       2020-04-22 08:22:11,056        Item of LRC :
+30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 31 30 32 30 30 31 31 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 08:22:12,131         
+*INFO       2020-04-22 08:22:12,146        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 888 
+*INFO       2020-04-22 08:22:12,162        *************************************************************** 
+*INFO       2020-04-22 08:22:12,363        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:22:12,363         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:25:48,079        Start Services... 
+*INFO       2020-04-22 08:25:53,305        *************************************************************** 
+*INFO       2020-04-22 08:25:53,305        Terminal           : UOB 
+*INFO       2020-04-22 08:25:53,306        ECR Type           : 2 
+*INFO       2020-04-22 08:25:53,306        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:25:53,306        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:25:53,307        *************************************************************** 
+*INFO       2020-04-22 08:25:53,314        Terminal Connected. 
+*INFO       2020-04-22 08:25:59,588        Command       : transaction 
+*INFO       2020-04-22 08:25:59,588        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:25:59,588        Terminal      : K1 
+*INFO       2020-04-22 08:25:59,588        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:25:59,588        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:25:59,589        Amount        : 0.10 
+*INFO       2020-04-22 08:25:59,590        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:25:59,590        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:25:59,590        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:25:59,590         
+*INFO       2020-04-22 08:25:59,590        *************************************************************** 
+*INFO       2020-04-22 08:25:59,764        Request Number of bytes :62 
+*INFO       2020-04-22 08:25:59,765        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 32 30 30 31 30 58 31 00 02 30 31 1c 31  
+*INFO       2020-04-22 08:25:59,766        Item of LRC :
+30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 32 30 30 31 30 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 08:26:00,824         
+*INFO       2020-04-22 08:26:00,855        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 890 
+*INFO       2020-04-22 08:26:00,862        *************************************************************** 
+*INFO       2020-04-22 08:26:01,059        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:26:01,059         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:26:59,748        Start Services... 
+*INFO       2020-04-22 08:27:04,917        *************************************************************** 
+*INFO       2020-04-22 08:27:04,917        Terminal           : UOB 
+*INFO       2020-04-22 08:27:04,917        ECR Type           : 2 
+*INFO       2020-04-22 08:27:04,917        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:27:04,917        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:27:04,917        *************************************************************** 
+*INFO       2020-04-22 08:27:04,917        Terminal Connected. 
+*INFO       2020-04-22 08:27:15,342        Command       : transaction 
+*INFO       2020-04-22 08:27:15,342        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:27:15,342        Terminal      : K1 
+*INFO       2020-04-22 08:27:15,342        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:27:15,342        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:27:15,342        Amount        : 0.10 
+*INFO       2020-04-22 08:27:15,342        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:27:15,342        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:27:15,342        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:27:15,342         
+*INFO       2020-04-22 08:27:15,342        *************************************************************** 
+*INFO       2020-04-22 08:27:15,479        Request Number of bytes :62 
+*INFO       2020-04-22 08:27:15,479        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 32 30 30 31 30 58 31 00 02 30 31 1c 31  
+*INFO       2020-04-22 08:27:15,479        Item of LRC :
+30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 32 30 30 31 30 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 08:27:16,531         
+*INFO       2020-04-22 08:27:16,531        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 890 
+*INFO       2020-04-22 08:27:16,531        *************************************************************** 
+*INFO       2020-04-22 08:27:16,762        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:27:16,762         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:32:43,559        Start Services... 
+*INFO       2020-04-22 08:32:48,772        *************************************************************** 
+*INFO       2020-04-22 08:32:48,772        Terminal           : UOB 
+*INFO       2020-04-22 08:32:48,772        ECR Type           : 2 
+*INFO       2020-04-22 08:32:48,772        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:32:48,772        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:32:48,772        *************************************************************** 
+*INFO       2020-04-22 08:32:48,772        Terminal Connected. 
+*INFO       2020-04-22 08:32:57,976        Command       : transaction 
+*INFO       2020-04-22 08:32:57,976        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:32:57,976        Terminal      : K1 
+*INFO       2020-04-22 08:32:57,976        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:32:57,976        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:32:57,976        Amount        : 0.10 
+*INFO       2020-04-22 08:32:57,976        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:32:57,976        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:32:57,976        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:32:57,976         
+*INFO       2020-04-22 08:32:57,976        *************************************************************** 
+*INFO       2020-04-22 08:32:58,129        Request Number of bytes :63 
+*INFO       2020-04-22 08:32:58,129        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 58 31 00 02 30 31 1c 48  
+*INFO       2020-04-22 08:32:58,129        Item of LRC :
+30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 08:32:59,164         
+*INFO       2020-04-22 08:32:59,164        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 873 
+*INFO       2020-04-22 08:32:59,180        *************************************************************** 
+*INFO       2020-04-22 08:32:59,348        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:32:59,348         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:38:02,417        Start Services... 
+*INFO       2020-04-22 08:38:07,707        *************************************************************** 
+*INFO       2020-04-22 08:38:07,708        Terminal           : UOB 
+*INFO       2020-04-22 08:38:07,708        ECR Type           : 2 
+*INFO       2020-04-22 08:38:07,708        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:38:07,708        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:38:07,708        *************************************************************** 
+*INFO       2020-04-22 08:38:07,716        Terminal Connected. 
+*INFO       2020-04-22 08:38:15,510        Command       : transaction 
+*INFO       2020-04-22 08:38:15,510        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:38:15,510        Terminal      : K1 
+*INFO       2020-04-22 08:38:15,510        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:38:15,511        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:38:15,511        Amount        : 0.10 
+*INFO       2020-04-22 08:38:15,511        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:38:15,511        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:38:15,511        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:38:15,511         
+*INFO       2020-04-22 08:38:15,511        *************************************************************** 
+*INFO       2020-04-22 08:38:15,648        Request Number of bytes :63 
+*INFO       2020-04-22 08:38:15,649        Requested : >>>>> :
+00 61 30 30 30 30 39 38 32 39 33 34 30 34 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 58 31 00 02 30 31 1c 48  
+*INFO       2020-04-22 08:38:16,710         
+*INFO       2020-04-22 08:38:16,736        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 887 
+*INFO       2020-04-22 08:38:16,738        *************************************************************** 
+*INFO       2020-04-22 08:38:16,947        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:38:16,948         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:49:14,881        Start Services... 
+*INFO       2020-04-22 08:49:20,047        *************************************************************** 
+*INFO       2020-04-22 08:49:20,047        Terminal           : UOB 
+*INFO       2020-04-22 08:49:20,047        ECR Type           : 2 
+*INFO       2020-04-22 08:49:20,047        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:49:20,047        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:49:20,047        *************************************************************** 
+*INFO       2020-04-22 08:49:20,047        Terminal Connected. 
+*INFO       2020-04-22 08:49:25,960        Command       : transaction 
+*INFO       2020-04-22 08:49:25,960        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:49:25,960        Terminal      : K1 
+*INFO       2020-04-22 08:49:25,960        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:49:25,960        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:49:25,960        Amount        : 0.10 
+*INFO       2020-04-22 08:49:25,960        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:49:25,960        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:49:25,960        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:49:25,960         
+*INFO       2020-04-22 08:49:25,960        *************************************************************** 
+*INFO       2020-04-22 08:49:26,108        Request Number of bytes :63 
+*INFO       2020-04-22 08:49:26,108        Requested : >>>>> :
+00 61 30 30 30 30 38 35 36 38 34 30 39 34 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 58 31 00 02 30 31 1c 72  
+*INFO       2020-04-22 08:49:27,178         
+*INFO       2020-04-22 08:49:27,178        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 887 
+*INFO       2020-04-22 08:49:27,178        *************************************************************** 
+*INFO       2020-04-22 08:49:27,332        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:49:27,332         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:49:44,791        Command       : transaction 
+*INFO       2020-04-22 08:49:44,791        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:49:44,791        Terminal      : K1 
+*INFO       2020-04-22 08:49:44,791        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:49:44,823        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:49:44,823        Amount        : 2.10 
+*INFO       2020-04-22 08:49:44,839        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:49:44,839        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:49:44,854        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"2.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:49:44,870         
+*INFO       2020-04-22 08:49:44,892        *************************************************************** 
+*INFO       2020-04-22 08:49:44,908        Request Number of bytes :63 
+*INFO       2020-04-22 08:49:44,908        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 38 31 35 34 38 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 32 31 30 1c 58 31 00 02 30 31 1c 7a  
+*INFO       2020-04-22 08:49:45,972         
+*INFO       2020-04-22 08:49:45,972        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 887 
+*INFO       2020-04-22 08:49:45,996        *************************************************************** 
+*INFO       2020-04-22 08:49:46,011        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:49:46,011         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:50:24,383        Start Services... 
+*INFO       2020-04-22 08:50:29,616        *************************************************************** 
+*INFO       2020-04-22 08:50:29,616        Terminal           : UOB 
+*INFO       2020-04-22 08:50:29,616        ECR Type           : 2 
+*INFO       2020-04-22 08:50:29,616        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 08:50:29,616        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 08:50:29,616        *************************************************************** 
+*INFO       2020-04-22 08:50:29,620        Terminal Connected. 
+*INFO       2020-04-22 08:51:05,851        Command       : transaction 
+*INFO       2020-04-22 08:51:05,851        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:51:05,851        Terminal      : K1 
+*INFO       2020-04-22 08:51:05,851        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:51:05,851        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:51:05,851        Amount        : 2.10 
+*INFO       2020-04-22 08:51:05,851        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:51:05,851        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:51:05,851        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"2.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:51:05,851         
+*INFO       2020-04-22 08:51:05,851        *************************************************************** 
+*INFO       2020-04-22 08:51:05,988        Request Number of bytes :63 
+*INFO       2020-04-22 08:51:05,988        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 32 31 30 1c 58 31 00 02 30 31 1c 7a  
+*INFO       2020-04-22 08:51:07,038         
+*INFO       2020-04-22 08:51:07,054        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 888 
+*INFO       2020-04-22 08:51:07,054        *************************************************************** 
+*INFO       2020-04-22 08:51:07,239        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:51:07,239         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 08:51:21,637        Command       : transaction 
+*INFO       2020-04-22 08:51:21,637        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 08:51:21,637        Terminal      : K1 
+*INFO       2020-04-22 08:51:21,637        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 08:51:21,653        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 08:51:21,653        Amount        : 5.10 
+*INFO       2020-04-22 08:51:21,685        Payment Type  : CRCARD 
+*INFO       2020-04-22 08:51:21,686        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 08:51:21,706        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"5.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 08:51:21,706         
+*INFO       2020-04-22 08:51:21,722        *************************************************************** 
+*INFO       2020-04-22 08:51:21,753        Request Number of bytes :63 
+*INFO       2020-04-22 08:51:21,753        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 35 31 30 1c 58 31 00 02 30 31 1c 7d  
+*INFO       2020-04-22 08:51:22,808         
+*INFO       2020-04-22 08:51:22,808        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 888 
+*INFO       2020-04-22 08:51:22,839        *************************************************************** 
+*INFO       2020-04-22 08:51:22,839        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 08:51:22,855         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 09:17:30,465        Start Services... 
+*INFO       2020-04-22 09:17:35,666        *************************************************************** 
+*INFO       2020-04-22 09:17:35,666        Terminal           : UOB 
+*INFO       2020-04-22 09:17:35,670        ECR Type           : 2 
+*INFO       2020-04-22 09:17:35,670        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 09:17:35,670        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 09:17:35,670        *************************************************************** 
+*INFO       2020-04-22 09:17:35,674        Terminal Connected. 
+*INFO       2020-04-22 09:17:42,979        Command       : transaction 
+*INFO       2020-04-22 09:17:42,979        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 09:17:42,979        Terminal      : K1 
+*INFO       2020-04-22 09:17:42,979        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 09:17:42,979        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 09:17:42,979        Amount        : 5.10 
+*INFO       2020-04-22 09:17:42,979        Payment Type  : CRCARD 
+*INFO       2020-04-22 09:17:42,979        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 09:17:42,979        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"5.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 09:17:42,979         
+*INFO       2020-04-22 09:17:42,979        *************************************************************** 
+*INFO       2020-04-22 09:17:43,110        Item of LRC :
+30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 35 31 30 1c 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 09:17:43,110        Request Number of bytes :63 
+*INFO       2020-04-22 09:17:43,110        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 35 31 30 1c 58 31 00 02 30 31 1c 7d  
+*INFO       2020-04-22 09:17:44,187         
+*INFO       2020-04-22 09:17:44,200        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 888 
+*INFO       2020-04-22 09:17:44,200        *************************************************************** 
+*INFO       2020-04-22 09:17:44,383        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 09:17:44,383         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 09:18:20,206        Start Services... 
+*INFO       2020-04-22 09:18:25,446        *************************************************************** 
+*INFO       2020-04-22 09:18:25,447        Terminal           : UOB 
+*INFO       2020-04-22 09:18:25,448        ECR Type           : 2 
+*INFO       2020-04-22 09:18:25,448        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 09:18:25,448        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 09:18:25,448        *************************************************************** 
+*INFO       2020-04-22 09:18:25,457        Terminal Connected. 
+*INFO       2020-04-22 09:18:33,857        Command       : transaction 
+*INFO       2020-04-22 09:18:33,857        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 09:18:33,857        Terminal      : K1 
+*INFO       2020-04-22 09:18:33,857        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 09:18:33,858        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 09:18:33,858        Amount        : 5.10 
+*INFO       2020-04-22 09:18:33,858        Payment Type  : CRCARD 
+*INFO       2020-04-22 09:18:33,858        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 09:18:33,859        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"5.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 09:18:33,860         
+*INFO       2020-04-22 09:18:33,860        *************************************************************** 
+*INFO       2020-04-22 09:18:34,080        Request Number of bytes :63 
+*INFO       2020-04-22 09:18:34,081        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 35 31 30 1c 58 31 00 02 30 31 1c 7d  
+*INFO       2020-04-22 09:18:34,081        Item of LRC :
+30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 35 31 30 1c 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 09:18:35,144         
+*INFO       2020-04-22 09:18:35,168        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 890 
+*INFO       2020-04-22 09:18:35,173        *************************************************************** 
+*INFO       2020-04-22 09:18:35,404        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 09:18:35,404         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 11:07:15,668        Start Services... 
+*INFO       2020-04-22 11:07:21,080        *************************************************************** 
+*INFO       2020-04-22 11:07:21,081        Terminal           : UOB 
+*INFO       2020-04-22 11:07:21,081        ECR Type           : 2 
+*INFO       2020-04-22 11:07:21,081        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 11:07:21,081        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 11:07:21,081        *************************************************************** 
+*INFO       2020-04-22 11:07:21,098        Terminal Connected. 
+*INFO       2020-04-22 11:07:57,119        Command       : transaction 
+*INFO       2020-04-22 11:07:57,119        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 11:07:57,119        Terminal      : K1 
+*INFO       2020-04-22 11:07:57,119        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 11:07:57,119        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 11:07:57,119        Amount        : 2.10 
+*INFO       2020-04-22 11:07:57,119        Payment Type  : CRCARD 
+*INFO       2020-04-22 11:07:57,120        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 11:07:57,120        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"2.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 11:07:57,121         
+*INFO       2020-04-22 11:07:57,121        *************************************************************** 
+*INFO       2020-04-22 11:07:57,397        Request Number of bytes :63 
+*INFO       2020-04-22 11:07:57,397        Requested : >>>>> :
+00 61 30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 32 31 30 1c 58 31 00 02 30 31 1c 7a  
+*INFO       2020-04-22 11:07:57,398        Item of LRC :
+30 30 30 30 30 30 30 30 30 30 30 30 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 32 31 30 1c 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 11:07:58,442         
+*INFO       2020-04-22 11:07:58,487        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 890 
+*INFO       2020-04-22 11:07:58,489        *************************************************************** 
+*INFO       2020-04-22 11:07:58,791        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 11:07:58,792         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 11:13:36,568        Start Services... 
+*INFO       2020-04-22 11:13:41,730        *************************************************************** 
+*INFO       2020-04-22 11:13:41,730        Terminal           : UOB 
+*INFO       2020-04-22 11:13:41,730        ECR Type           : 2 
+*INFO       2020-04-22 11:13:41,730        IP Address         : 192.168.1.22:3000 
+*INFO       2020-04-22 11:13:41,730        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-04-22 11:13:41,730        *************************************************************** 
+*INFO       2020-04-22 11:13:41,736        Terminal Connected. 
+*INFO       2020-04-22 11:13:47,801        Command       : transaction 
+*INFO       2020-04-22 11:13:47,801        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 11:13:47,801        Terminal      : K1 
+*INFO       2020-04-22 11:13:47,801        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 11:13:47,801        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 11:13:47,801        Amount        : 2.10 
+*INFO       2020-04-22 11:13:47,801        Payment Type  : CRCARD 
+*INFO       2020-04-22 11:13:47,802        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 11:13:47,802        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"2.10","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 11:13:47,802         
+*INFO       2020-04-22 11:13:47,802        *************************************************************** 
+*INFO       2020-04-22 11:13:48,000        Request Number of bytes :63 
+*INFO       2020-04-22 11:13:48,001        Requested : >>>>> :
+00 61 30 30 30 30 39 30 34 36 38 31 34 33 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 32 31 30 1c 58 31 00 02 30 31 1c 7f  
+*INFO       2020-04-22 11:13:48,001        Item of LRC :
+30 30 30 30 39 30 34 36 38 31 34 33 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 32 31 30 1c 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 11:13:49,032         
+*INFO       2020-04-22 11:13:49,043        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 890 
+*INFO       2020-04-22 11:13:49,043        *************************************************************** 
+*INFO       2020-04-22 11:13:49,279        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 11:13:49,280         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-04-22 11:16:53,543        Command       : transaction 
+*INFO       2020-04-22 11:16:53,543        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-04-22 11:16:53,555        Terminal      : K1 
+*INFO       2020-04-22 11:16:53,555        Session       : 12FDSDDGdAS45S6j 
+*INFO       2020-04-22 11:16:53,583        OrderNo       : 181205082219K15b 
+*INFO       2020-04-22 11:16:53,584        Amount        : 10.11 
+*INFO       2020-04-22 11:16:53,617        Payment Type  : CRCARD 
+*INFO       2020-04-22 11:16:53,618        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-04-22 11:16:53,649        Request       :{"merchant":"5b4c3873355d2","session":"12FDSDDGdAS45S6j","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"10.11","payment_type":"CRCARD","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-04-22 11:16:53,651         
+*INFO       2020-04-22 11:16:53,695        *************************************************************** 
+*INFO       2020-04-22 11:16:53,721        Request Number of bytes :63 
+*INFO       2020-04-22 11:16:53,723        Requested : >>>>> :
+00 61 30 30 30 30 39 35 31 38 32 30 31 32 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 31 30 31 31 1c 58 31 00 02 30 31 1c 7c  
+*INFO       2020-04-22 11:16:53,748        Item of LRC :
+30 30 30 30 39 35 31 38 32 30 31 32 32 30 30 32 30 1c 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 31 30 31 31 1c 58 31 00 02 30 31 1c 00 00 00  
+*INFO       2020-04-22 11:16:54,802         
+*INFO       2020-04-22 11:16:54,803        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 890 
+*INFO       2020-04-22 11:16:54,825        *************************************************************** 
+*INFO       2020-04-22 11:16:54,847        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2020-04-22 11:16:54,874         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 

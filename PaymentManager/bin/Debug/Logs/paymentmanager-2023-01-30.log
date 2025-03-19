@@ -1,0 +1,533 @@
+*INFO       2023-01-30 11:33:12,587        Start Services... 
+*INFO       2023-01-30 11:33:18,968        *************************************************************** 
+*INFO       2023-01-30 11:33:18,969        Terminal           : NETTS 
+*INFO       2023-01-30 11:33:18,970        ECR Type           : 2 
+*INFO       2023-01-30 11:33:18,970        IP Address         : 127.0.0.1:10000 
+*INFO       2023-01-30 11:33:18,970        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:33:18,970        *************************************************************** 
+*INFO       2023-01-30 11:33:18,981        Terminal Connected. 
+*INFO       2023-01-30 11:36:39,097        Start Services... 
+*INFO       2023-01-30 11:36:44,320        *************************************************************** 
+*INFO       2023-01-30 11:36:44,320        Terminal           : NETTS 
+*INFO       2023-01-30 11:36:44,321        ECR Type           : 2 
+*INFO       2023-01-30 11:36:44,321        IP Address         : 127.0.0.1:10000 
+*INFO       2023-01-30 11:36:44,321        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:36:44,321        *************************************************************** 
+*INFO       2023-01-30 11:36:44,332        Terminal Connected. 
+*INFO       2023-01-30 11:37:28,191        Start Services... 
+*INFO       2023-01-30 11:37:33,483        *************************************************************** 
+*INFO       2023-01-30 11:37:33,485        Terminal           : NETTS 
+*INFO       2023-01-30 11:37:33,486        ECR Type           : 2 
+*INFO       2023-01-30 11:37:33,488        IP Address         : 127.0.0.1:10000 
+*INFO       2023-01-30 11:37:33,488        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:37:33,489        *************************************************************** 
+*INFO       2023-01-30 11:37:33,545        Terminal Connected. 
+*INFO       2023-01-30 11:38:17,828        Start Services... 
+*INFO       2023-01-30 11:38:23,274        *************************************************************** 
+*INFO       2023-01-30 11:38:23,286        Terminal           : NETTS 
+*INFO       2023-01-30 11:38:23,292        ECR Type           : 2 
+*INFO       2023-01-30 11:38:23,293        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 11:38:23,294        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:38:23,295        *************************************************************** 
+*INFO       2023-01-30 11:38:23,318        Terminal Connected. 
+*INFO       2023-01-30 11:39:47,847        Requested {0}{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-30 11:39:47,919        Command       : transaction 
+*INFO       2023-01-30 11:39:47,919        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-30 11:39:47,919        Terminal      : K1 
+*INFO       2023-01-30 11:39:47,919        Session       : 123dfff 
+*INFO       2023-01-30 11:39:47,920        OrderNo       : 181205082219K15b 
+*INFO       2023-01-30 11:39:47,920        Amount        : 0.10 
+*INFO       2023-01-30 11:39:47,920        Payment Type  : NETSDB 
+*INFO       2023-01-30 11:39:47,920        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-30 11:39:47,920        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-30 11:39:47,921         
+*INFO       2023-01-30 11:39:47,921        *************************************************************** 
+*INFO       2023-01-30 11:39:47,933        Request Number of bytes :86 
+*INFO       2023-01-30 11:39:47,934        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-30 11:39:47,935        Sent. Waiting for the response ... 
+*INFO       2023-01-30 11:42:24,085        Start Services... 
+*INFO       2023-01-30 11:42:29,423        *************************************************************** 
+*INFO       2023-01-30 11:42:29,424        Terminal           : NETTS 
+*INFO       2023-01-30 11:42:29,424        ECR Type           : 2 
+*INFO       2023-01-30 11:42:29,424        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 11:42:29,424        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:42:29,424        *************************************************************** 
+*INFO       2023-01-30 11:42:29,431        Terminal Connected. 
+*INFO       2023-01-30 11:43:04,613        Start Services... 
+*INFO       2023-01-30 11:43:09,845        *************************************************************** 
+*INFO       2023-01-30 11:43:09,847        Terminal           : NETTS 
+*INFO       2023-01-30 11:43:09,847        ECR Type           : 2 
+*INFO       2023-01-30 11:43:09,848        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 11:43:09,849        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:43:09,849        *************************************************************** 
+*INFO       2023-01-30 11:43:09,876        Terminal Connected. 
+*INFO       2023-01-30 11:44:02,767        Start Services... 
+*INFO       2023-01-30 11:44:08,071        *************************************************************** 
+*INFO       2023-01-30 11:44:08,074        Terminal           : NETTS 
+*INFO       2023-01-30 11:44:08,075        ECR Type           : 2 
+*INFO       2023-01-30 11:44:08,075        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 11:44:08,076        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:44:08,076        *************************************************************** 
+*INFO       2023-01-30 11:44:08,096        Terminal Connected. 
+*INFO       2023-01-30 11:44:29,973        Start Services... 
+*INFO       2023-01-30 11:44:35,291        *************************************************************** 
+*INFO       2023-01-30 11:44:35,292        Terminal           : NETTS 
+*INFO       2023-01-30 11:44:35,292        ECR Type           : 2 
+*INFO       2023-01-30 11:44:35,292        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 11:44:35,292        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:44:35,292        *************************************************************** 
+*INFO       2023-01-30 11:44:35,301        Terminal Connected. 
+*INFO       2023-01-30 11:45:52,128        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-30 11:45:52,319        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 11:45:56,716        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-30 11:45:56,761        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 11:49:43,064        Start Services... 
+*INFO       2023-01-30 11:49:49,416        *************************************************************** 
+*INFO       2023-01-30 11:49:49,429        Terminal           : NETTS 
+*INFO       2023-01-30 11:49:49,463        ECR Type           : 2 
+*INFO       2023-01-30 11:49:49,474        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 11:49:49,477        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 11:49:49,478        *************************************************************** 
+*INFO       2023-01-30 11:49:49,514        Terminal Connected. 
+*INFO       2023-01-30 11:50:08,000        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-30 11:50:08,166        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 12:01:46,258        Start Services... 
+*INFO       2023-01-30 12:01:51,564        *************************************************************** 
+*INFO       2023-01-30 12:01:51,564        Terminal           : NETTS 
+*INFO       2023-01-30 12:01:51,564        ECR Type           : 2 
+*INFO       2023-01-30 12:01:51,564        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 12:01:51,564        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 12:01:51,564        *************************************************************** 
+*INFO       2023-01-30 12:01:51,573        Terminal Connected. 
+*INFO       2023-01-30 12:02:20,378        Start Services... 
+*INFO       2023-01-30 12:02:25,743        *************************************************************** 
+*INFO       2023-01-30 12:02:25,743        Terminal           : NETTS 
+*INFO       2023-01-30 12:02:25,744        ECR Type           : 2 
+*INFO       2023-01-30 12:02:25,744        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 12:02:25,744        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 12:02:25,744        *************************************************************** 
+*INFO       2023-01-30 12:02:25,748        Terminal Connected. 
+*INFO       2023-01-30 12:03:49,089        Requested {0}GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+ 
+*INFO       2023-01-30 12:03:49,196        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 12:03:50,585        Requested {0}GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+ 
+*INFO       2023-01-30 12:03:50,620        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 12:03:55,969        Requested {0}GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+ 
+*INFO       2023-01-30 12:03:56,007        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 12:04:26,365        Requested {0}GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+ 
+*INFO       2023-01-30 12:04:26,385        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 12:05:26,751        Requested {0}GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+ 
+*INFO       2023-01-30 12:05:26,769        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 12:10:27,125        Requested {0}GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+ 
+*INFO       2023-01-30 12:10:27,225        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 12:37:07,113        Start Services... 
+*INFO       2023-01-30 12:37:13,759        *************************************************************** 
+*INFO       2023-01-30 12:37:13,760        Terminal           : NETTS 
+*INFO       2023-01-30 12:37:13,761        ECR Type           : 2 
+*INFO       2023-01-30 12:37:13,761        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 12:37:13,761        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 12:37:13,761        *************************************************************** 
+*INFO       2023-01-30 12:37:13,781        Terminal Connected. 
+*INFO       2023-01-30 12:43:50,900        Start Services... 
+*INFO       2023-01-30 12:43:56,286        *************************************************************** 
+*INFO       2023-01-30 12:43:56,286        Terminal           : NETTS 
+*INFO       2023-01-30 12:43:56,286        ECR Type           : 2 
+*INFO       2023-01-30 12:43:56,286        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 12:43:56,286        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 12:43:56,286        *************************************************************** 
+*INFO       2023-01-30 12:43:56,299        Terminal Connected. 
+*INFO       2023-01-30 12:44:14,478        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-30 12:44:14,681        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 12:45:47,956        Start Services... 
+*INFO       2023-01-30 12:45:53,388        *************************************************************** 
+*INFO       2023-01-30 12:45:53,389        Terminal           : NETTS 
+*INFO       2023-01-30 12:45:53,389        ECR Type           : 2 
+*INFO       2023-01-30 12:45:53,390        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 12:45:53,390        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 12:45:53,390        *************************************************************** 
+*INFO       2023-01-30 12:45:53,405        Terminal Connected. 
+*INFO       2023-01-30 12:52:16,999        Start Services... 
+*INFO       2023-01-30 12:52:25,089        *************************************************************** 
+*INFO       2023-01-30 12:52:25,105        Terminal           : NETTS 
+*INFO       2023-01-30 12:52:25,105        ECR Type           : 2 
+*INFO       2023-01-30 12:52:25,106        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 12:52:25,106        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 12:52:25,106        *************************************************************** 
+*INFO       2023-01-30 12:52:25,139        Terminal Connected. 
+*INFO       2023-01-30 12:53:00,174        Start Services... 
+*INFO       2023-01-30 12:53:05,400        *************************************************************** 
+*INFO       2023-01-30 12:53:05,401        Terminal           : NETTS 
+*INFO       2023-01-30 12:53:05,401        ECR Type           : 2 
+*INFO       2023-01-30 12:53:05,401        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 12:53:05,401        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 12:53:05,401        *************************************************************** 
+*INFO       2023-01-30 12:53:05,411        Terminal Connected. 
+*INFO       2023-01-30 12:53:54,703        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-30 12:53:54,867        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 14:34:03,247        Start Services... 
+*INFO       2023-01-30 14:34:10,242        *************************************************************** 
+*INFO       2023-01-30 14:34:10,245        Terminal           : NETTS 
+*INFO       2023-01-30 14:34:10,246        ECR Type           : 2 
+*INFO       2023-01-30 14:34:10,246        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 14:34:10,246        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 14:34:10,246        *************************************************************** 
+*INFO       2023-01-30 14:34:10,263        Terminal Connected. 
+*INFO       2023-01-30 14:35:29,346        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-30 14:35:29,544        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 14:37:21,664        Start Services... 
+*INFO       2023-01-30 14:37:27,178        *************************************************************** 
+*INFO       2023-01-30 14:37:27,178        Terminal           : NETTS 
+*INFO       2023-01-30 14:37:27,179        ECR Type           : 2 
+*INFO       2023-01-30 14:37:27,179        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 14:37:27,179        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 14:37:27,179        *************************************************************** 
+*INFO       2023-01-30 14:37:27,197        Terminal Connected. 
+*INFO       2023-01-30 15:30:48,956        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-30 15:30:50,615        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-30 15:31:09,343        Start Services... 
+*INFO       2023-01-30 15:31:15,575        *************************************************************** 
+*INFO       2023-01-30 15:31:15,576        Terminal           : NETTS 
+*INFO       2023-01-30 15:31:15,576        ECR Type           : 2 
+*INFO       2023-01-30 15:31:15,576        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-30 15:31:15,576        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-30 15:31:15,576        *************************************************************** 
+*INFO       2023-01-30 15:31:15,596        Terminal Connected. 

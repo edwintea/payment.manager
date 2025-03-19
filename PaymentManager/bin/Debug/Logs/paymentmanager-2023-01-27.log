@@ -1,0 +1,434 @@
+*INFO       2023-01-27 08:00:00,662        Start Services... 
+*INFO       2023-01-27 08:00:05,986        *************************************************************** 
+*INFO       2023-01-27 08:00:05,986        Terminal           : UOB 
+*INFO       2023-01-27 08:00:05,986        ECR Type           : 2 
+*INFO       2023-01-27 08:00:05,986        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 08:00:05,986        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 08:00:05,987        *************************************************************** 
+*INFO       2023-01-27 08:00:05,995        Terminal Connected. 
+*INFO       2023-01-27 08:00:14,037        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-27 08:01:34,714        Start Services... 
+*INFO       2023-01-27 08:01:39,995        *************************************************************** 
+*INFO       2023-01-27 08:01:39,995        Terminal           : UOB 
+*INFO       2023-01-27 08:01:39,996        ECR Type           : 2 
+*INFO       2023-01-27 08:01:39,996        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 08:01:39,996        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 08:01:39,996        *************************************************************** 
+*INFO       2023-01-27 08:01:40,006        Terminal Connected. 
+*INFO       2023-01-27 08:01:47,895        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-27 08:01:48,045        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-27 08:01:52,778        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-27 08:01:52,835        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-27 08:01:58,464        Requested {0}{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 08:01:58,464        Command       : transaction 
+*INFO       2023-01-27 08:01:58,479        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 08:01:58,479        Terminal      : K1 
+*INFO       2023-01-27 08:01:58,479        Session       : 123dfff 
+*INFO       2023-01-27 08:01:58,479        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 08:01:58,479        Amount        : 0.10 
+*INFO       2023-01-27 08:01:58,495        Payment Type  : NETSDB 
+*INFO       2023-01-27 08:01:58,495        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 08:01:58,495        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 08:01:58,511         
+*INFO       2023-01-27 08:01:58,511        *************************************************************** 
+*INFO       2023-01-27 08:02:00,675        Session on DB       :-1 
+*INFO       2023-01-27 08:02:00,675        Here 2 
+*INFO       2023-01-27 08:02:00,675        Payment Type :netsdb 
+*INFO       2023-01-27 08:02:00,691        Response was from terminal 
+*INFO       2023-01-27 08:02:00,706        Request Number of bytes :86 
+*INFO       2023-01-27 08:02:00,706        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 08:02:00,724        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 08:02:02,827         
+*INFO       2023-01-27 08:02:02,843        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 127.0.0.1:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.UOBImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String commandType) in D:\me\PaymentManager\PaymentManager\POSPlugins\UOBImplementation.cs:line 890 
+*INFO       2023-01-27 08:02:02,858        *************************************************************** 
+*INFO       2023-01-27 08:02:02,858        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 127.0.0.1:80]","nextCommand":"","result":false} 
+*INFO       2023-01-27 08:02:02,858         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2023-01-27 08:04:15,600        Start Services... 
+*INFO       2023-01-27 08:04:20,840        *************************************************************** 
+*INFO       2023-01-27 08:04:20,841        Terminal           : UOB 
+*INFO       2023-01-27 08:04:20,841        ECR Type           : 2 
+*INFO       2023-01-27 08:04:20,841        IP Address         : 127.0.0.1:3000 
+*INFO       2023-01-27 08:04:20,841        Merchant           : TERMINAL INTEGRATION 
+*INFO       2023-01-27 08:04:20,841        *************************************************************** 
+*INFO       2023-01-27 08:04:20,849        Terminal Connected. 
+*INFO       2023-01-27 08:04:28,806        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-27 08:04:28,868        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-27 08:04:34,570        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-27 08:04:34,585        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-27 08:04:37,663        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-27 08:04:37,710        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-27 08:04:41,115        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-27 08:04:41,131        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-27 08:04:44,193        Requested {0}{
+  "message": "Get Payment list successful!",
+  "result": {
+    "totalEarnings": 7000,
+    "totalPayout": null,
+    "totalUpcomingUnRead": 13,
+    "totalPendingUnRead": 0,
+    "totalHistoryUnRead": 0,
+    "paymentList": [
+      {
+        "date": "2022-11-14T00:00:00",
+        "paymentListByType": [
+          {
+            "paymentId": "08dac5ef-5cc9-4cb2-876e-6499d9e40ecd",
+            "workAcceptedDate": null,
+            "paymentDate": "0001-01-01T00:00:00",
+            "jobTitle": "New IT Job",
+            "jobRefNo": "JRN00057496",
+            "serviceCategory": null,
+            "amount": 4000,
+            "name": "Alice Worker",
+            "quotationRefNo": "QRN00000286",
+            "paymentStatus": "Pending",
+            "paymentReleaseStatus": "Default",
+            "statementOrder": 1,
+            "hasRead": true,
+            "feesInvoiceFileUrl": null,
+            "invoiceFileUrl": null
+          }
+        ]
+      },
+      {
+        "date": "2022-11-08T00:00:00",
+        "paymentListByType": [
+   
+*INFO       2023-01-27 08:04:44,208        Socket was Closed.Incorrect Format Request. 
+*INFO       2023-01-27 08:04:46,708        Requested {0}{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 08:04:46,708        Command       : transaction 
+*INFO       2023-01-27 08:04:46,708        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 08:04:46,708        Terminal      : K1 
+*INFO       2023-01-27 08:04:46,723        Session       : 123dfff 
+*INFO       2023-01-27 08:04:46,723        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 08:04:46,723        Amount        : 0.10 
+*INFO       2023-01-27 08:04:46,723        Payment Type  : NETSDB 
+*INFO       2023-01-27 08:04:46,723        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 08:04:46,739        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 08:04:46,739         
+*INFO       2023-01-27 08:04:46,739        *************************************************************** 
+*INFO       2023-01-27 08:04:46,833        Session on DB       :-1 
+*INFO       2023-01-27 08:04:46,848        Here 2 
+*INFO       2023-01-27 08:04:46,848        Payment Type :netsdb 
+*INFO       2023-01-27 08:04:46,848        Response was from terminal 
+*INFO       2023-01-27 08:04:46,864        Request Number of bytes :86 
+*INFO       2023-01-27 08:04:46,864        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 08:04:46,880        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 08:04:46,880        Sent. Waiting for the response ... 
+*INFO       2023-01-27 08:05:30,932        Requested {0}{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 08:05:30,932        Command       : transaction 
+*INFO       2023-01-27 08:05:30,932        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 08:05:30,947        Terminal      : K1 
+*INFO       2023-01-27 08:05:30,947        Session       : 123dfff 
+*INFO       2023-01-27 08:05:30,947        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 08:05:30,947        Amount        : 0.10 
+*INFO       2023-01-27 08:05:30,947        Payment Type  : NETSDB 
+*INFO       2023-01-27 08:05:30,947        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 08:05:30,947        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 08:05:30,947         
+*INFO       2023-01-27 08:05:30,947        *************************************************************** 
+*INFO       2023-01-27 08:05:30,963        Session on DB       :-1 
+*INFO       2023-01-27 08:05:30,963        Here 2 
+*INFO       2023-01-27 08:05:30,979        Payment Type :netsdb 
+*INFO       2023-01-27 08:05:30,979        Response was from terminal 
+*INFO       2023-01-27 08:05:30,979        Request Number of bytes :86 
+*INFO       2023-01-27 08:05:30,979        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 08:05:30,979        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 08:05:30,979        Sent. Waiting for the response ... 
+*INFO       2023-01-27 08:05:37,992        Requested {0}{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 08:05:37,992        Command       : transaction 
+*INFO       2023-01-27 08:05:37,992        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 08:05:37,992        Terminal      : K1 
+*INFO       2023-01-27 08:05:38,008        Session       : 123dfff 
+*INFO       2023-01-27 08:05:38,008        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 08:05:38,008        Amount        : 0.10 
+*INFO       2023-01-27 08:05:38,008        Payment Type  : NETSDB 
+*INFO       2023-01-27 08:05:38,008        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 08:05:38,008        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 08:05:38,008         
+*INFO       2023-01-27 08:05:38,008        *************************************************************** 
+*INFO       2023-01-27 08:05:38,024        Session on DB       :-1 
+*INFO       2023-01-27 08:05:38,024        Here 2 
+*INFO       2023-01-27 08:05:38,039        Payment Type :netsdb 
+*INFO       2023-01-27 08:05:38,039        Response was from terminal 
+*INFO       2023-01-27 08:05:38,039        Request Number of bytes :86 
+*INFO       2023-01-27 08:05:38,039        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 08:05:38,039        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 08:05:38,039        Sent. Waiting for the response ... 
+*INFO       2023-01-27 08:06:38,055        Request Number of bytes :86 
+*INFO       2023-01-27 08:06:38,056        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 08:07:08,114        *************************************************************** 
+*INFO       2023-01-27 08:07:08,171        Response      : 
+{"data":{"STAN":0,"MerchantId":null,"TerminalID":null,"BankDateTime":"0001-01-01T00:00:00","TxnRef":null,"CardPAN":null,"Receipt":null,"CardType":null,"AuthCode":null,"status":"Please try again!","ID":null,"result":null,"surcharge":0.0,"ecrTrxNo":null,"invoiceNo":null,"batchNo":null,"expireDate":null,"APP":null,"AID":null,"TC":null,"TVR":null},"message":"Transaction Failed!!!","nextCommand":"","result":false} 
+*INFO       2023-01-27 08:07:08,173         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2023-01-27 09:03:18,768        Requested {0}{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 09:03:18,776        Command       : transaction 
+*INFO       2023-01-27 09:03:18,778        Merchant Key  : 5b4c3873355d2 
+*INFO       2023-01-27 09:03:18,788        Terminal      : K1 
+*INFO       2023-01-27 09:03:18,788        Session       : 123dfff 
+*INFO       2023-01-27 09:03:18,789        OrderNo       : 181205082219K15b 
+*INFO       2023-01-27 09:03:18,789        Amount        : 0.10 
+*INFO       2023-01-27 09:03:18,791        Payment Type  : NETSDB 
+*INFO       2023-01-27 09:03:18,808        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2023-01-27 09:03:18,815        Request       :{"merchant":"5b4c3873355d2","session":"123dfff","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"NETSDB","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2023-01-27 09:03:18,815         
+*INFO       2023-01-27 09:03:18,830        *************************************************************** 
+*INFO       2023-01-27 09:03:18,862        Session on DB       :-1 
+*INFO       2023-01-27 09:03:18,863        Here 2 
+*INFO       2023-01-27 09:03:18,877        Payment Type :netsdb 
+*INFO       2023-01-27 09:03:18,883        Response was from terminal 
+*INFO       2023-01-27 09:03:18,885        Request Number of bytes :86 
+*INFO       2023-01-27 09:03:18,901        Requested : >>>>> :
+00 84 30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 48  
+*INFO       2023-01-27 09:03:18,908        Item of LRC :
+30 30 30 30 30 30 30 30 30 31 33 36 33 30 30 31 30 1c 54 32 00 02 30 31 1c 34 33 00 01 30 1c 34 30 00 12 30 30 30 30 30 30 30 30 30 30 31 30 1c 34 32 00 12 30 30 30 30 30 30 30 30 30 30 30 30 1c 48 44 00 13 31 32 33 34 35 36 37 38 39 30 31 32 33 1c 00 00 00  
+*INFO       2023-01-27 09:03:18,929        Sent. Waiting for the response ... 

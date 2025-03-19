@@ -1,0 +1,108 @@
+*INFO       2020-01-10 16:07:01,181        Start Services... 
+*INFO       2020-01-10 16:07:11,664        *************************************************************** 
+*INFO       2020-01-10 16:07:11,664        Terminal           : BCA 
+*INFO       2020-01-10 16:07:11,664        ECR Type           : 1 
+*INFO       2020-01-10 16:07:11,664        IP Address         : 192.168.0.111:3000 
+*INFO       2020-01-10 16:07:11,664        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-01-10 16:07:11,664        *************************************************************** 
+*INFO       2020-01-10 16:07:11,664        Terminal Connected. 
+*INFO       2020-01-10 16:11:24,369        Start Services... 
+*INFO       2020-01-10 16:11:29,589        *************************************************************** 
+*INFO       2020-01-10 16:11:29,589        Terminal           : BCA 
+*INFO       2020-01-10 16:11:29,589        ECR Type           : 1 
+*INFO       2020-01-10 16:11:29,589        IP Address         : 192.168.0.111:3000 
+*INFO       2020-01-10 16:11:29,589        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-01-10 16:11:29,589        *************************************************************** 
+*INFO       2020-01-10 16:11:29,594        Terminal Connected. 
+*INFO       2020-01-10 16:12:03,084        Command       : transaction 
+*INFO       2020-01-10 16:12:03,084        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-01-10 16:12:03,084        Terminal      : K1 
+*INFO       2020-01-10 16:12:03,085        Session       : Euui2lj 
+*INFO       2020-01-10 16:12:03,085        OrderNo       : 181205082219K15b 
+*INFO       2020-01-10 16:12:03,085        Amount        : 0.10 
+*INFO       2020-01-10 16:12:03,085        Payment Type  : BCA 
+*INFO       2020-01-10 16:12:03,085        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-01-10 16:12:03,086        Request       :{"merchant":"5b4c3873355d2","session":"Euui2lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"BCA","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-01-10 16:12:03,086         
+*INFO       2020-01-10 16:12:03,086        *************************************************************** 
+*INFO       2020-01-10 16:12:03,303        Request Number of bytes :155 
+*INFO       2020-01-10 16:12:03,304        Requested : >>>>> :02 01 50 01 30 31 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 1d  
+*INFO       2020-01-10 16:12:04,895         
+*INFO       2020-01-10 16:12:04,932        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.0.108:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.BCAImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String paymentType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\BCAImplementation.cs:line 639 
+*INFO       2020-01-10 16:12:04,933        *************************************************************** 
+*INFO       2020-01-10 16:12:05,189        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.0.108:80]","nextCommand":"","result":false} 
+*INFO       2020-01-10 16:12:05,189         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-01-10 16:12:15,941        Command       : transaction 
+*INFO       2020-01-10 16:12:15,956        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-01-10 16:12:15,956        Terminal      : K1 
+*INFO       2020-01-10 16:12:15,972        Session       : Euui2lj 
+*INFO       2020-01-10 16:12:15,972        OrderNo       : 181205082219K15b 
+*INFO       2020-01-10 16:12:15,988        Amount        : 0.10 
+*INFO       2020-01-10 16:12:15,988        Payment Type  : BCA 
+*INFO       2020-01-10 16:12:16,022        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-01-10 16:12:16,022        Request       :{"merchant":"5b4c3873355d2","session":"Euui2lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"BCA","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-01-10 16:12:16,041         
+*INFO       2020-01-10 16:12:16,041        *************************************************************** 
+*INFO       2020-01-10 16:12:16,056        Request Number of bytes :155 
+*INFO       2020-01-10 16:12:16,056        Requested : >>>>> :02 01 50 01 30 31 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 1d  
+*INFO       2020-01-10 16:12:17,396         
+*INFO       2020-01-10 16:12:17,396        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.0.108:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.BCAImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String paymentType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\BCAImplementation.cs:line 639 
+*INFO       2020-01-10 16:12:17,411        *************************************************************** 
+*INFO       2020-01-10 16:12:17,433        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.0.108:80]","nextCommand":"","result":false} 
+*INFO       2020-01-10 16:12:17,433         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-01-10 16:15:08,932        Command       : transaction 
+*INFO       2020-01-10 16:15:08,932        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-01-10 16:15:08,932        Terminal      : K1 
+*INFO       2020-01-10 16:15:08,932        Session       : Euui2lj 
+*INFO       2020-01-10 16:15:08,964        OrderNo       : 181205082219K15b 
+*INFO       2020-01-10 16:15:08,969        Amount        : 0.10 
+*INFO       2020-01-10 16:15:08,985        Payment Type  : BCA 
+*INFO       2020-01-10 16:15:08,985        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-01-10 16:15:09,000        Request       :{"merchant":"5b4c3873355d2","session":"Euui2lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"BCA","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-01-10 16:15:09,000         
+*INFO       2020-01-10 16:15:09,016        *************************************************************** 
+*INFO       2020-01-10 16:15:09,032        Request Number of bytes :155 
+*INFO       2020-01-10 16:15:09,047        Requested : >>>>> :02 01 50 01 30 31 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 1d  
+*INFO       2020-01-10 16:15:10,428         
+*INFO       2020-01-10 16:15:10,428        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.0.108:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.BCAImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String paymentType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\BCAImplementation.cs:line 639 
+*INFO       2020-01-10 16:15:10,443        *************************************************************** 
+*INFO       2020-01-10 16:15:10,459        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.0.108:80]","nextCommand":"","result":false} 
+*INFO       2020-01-10 16:15:10,459         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-01-10 16:19:57,643        Start Services... 
+*INFO       2020-01-10 16:40:29,751        Start Services... 
+*INFO       2020-01-10 16:40:50,250        Start Services... 
+*INFO       2020-01-10 16:44:56,542        Start Services... 
+*INFO       2020-01-10 16:45:01,826        *************************************************************** 
+*INFO       2020-01-10 16:45:01,826        Terminal           : BCA 
+*INFO       2020-01-10 16:45:01,827        ECR Type           : 1 
+*INFO       2020-01-10 16:45:01,827        IP Address         : 192.168.0.111:3000 
+*INFO       2020-01-10 16:45:01,827        Merchant           : TERMINAL INTEGRATION 
+*INFO       2020-01-10 16:45:01,827        *************************************************************** 
+*INFO       2020-01-10 16:45:01,836        Terminal Connected. 
+*INFO       2020-01-10 16:45:08,467        Command       : transaction 
+*INFO       2020-01-10 16:45:08,467        Merchant Key  : 5b4c3873355d2 
+*INFO       2020-01-10 16:45:08,468        Terminal      : K1 
+*INFO       2020-01-10 16:45:08,468        Session       : Euui2lj 
+*INFO       2020-01-10 16:45:08,468        OrderNo       : 181205082219K15b 
+*INFO       2020-01-10 16:45:08,468        Amount        : 0.10 
+*INFO       2020-01-10 16:45:08,468        Payment Type  : BCA 
+*INFO       2020-01-10 16:45:08,468        Date          : 2018-14-05 01:22:19 +0000 
+*INFO       2020-01-10 16:45:08,469        Request       :{"merchant":"5b4c3873355d2","session":"Euui2lj","function":"transaction","terminal":"K1","orderNo":"181205082219K15b","amount":"0.10","payment_type":"BCA","txn_date_time":"2018-14-05 01:22:19 +0000"} 
+*INFO       2020-01-10 16:45:08,469         
+*INFO       2020-01-10 16:45:08,469        *************************************************************** 
+*INFO       2020-01-10 16:45:08,626        Request Number of bytes :155 
+*INFO       2020-01-10 16:45:08,626        Requested : >>>>> :02 01 50 01 30 31 30 30 30 30 30 30 30 30 30 30 31 30 30 30 30 30 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 30 30 30 30 30 30 30 30 20 20 20 20 20 20 20 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 1d  
+*INFO       2020-01-10 16:45:09,812         
+*INFO       2020-01-10 16:45:09,820        >>>>>>>> Exception:No connection could be made because the target machine actively refused it 192.168.0.104:80   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Tabsquare.Payment.BCAImplementation.DoTransaction(String merchant, String terminal, String orderNo, Decimal amount, String paymentType) in E:\me\source\net\payment\PaymentManager\PaymentManager\POSPlugins\BCAImplementation.cs:line 639 
+*INFO       2020-01-10 16:45:09,822        *************************************************************** 
+*INFO       2020-01-10 16:45:10,200        Response      : 
+{"data":null,"message":"Transaction Failed ! [No connection could be made because the target machine actively refused it 192.168.0.104:80]","nextCommand":"","result":false} 
+*INFO       2020-01-10 16:45:10,201         <<<<<<<<<<<<<<<<<<< END OF TRANSACTION <<<<<<<<<<<<<<<<<<< 
+*INFO       2020-01-10 16:48:57,103        Start Services... 
